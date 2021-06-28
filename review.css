@@ -1,0 +1,220 @@
+.review {
+  background-color: var(--verylightGray);
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.review__icon img {
+  border-radius: 50%;
+}
+
+/* .feature__intro {
+  border-bottom: 0.001px solid rgba(199, 199, 199, 0.733);
+  border-width: calc(100% - 3rem);
+}
+
+.feature__item:not(:last-child) {
+  border-bottom: 1px solid rgba(192, 191, 191, 0.733);
+  padding: 1.75rem;
+}
+
+.feature__item:last-child {
+  padding: 1.75rem;
+} */
+
+.review__icon {
+  margin-bottom: 2rem;
+}
+
+.review__intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.review__intro h2 {
+  margin-bottom: 0;
+  font-weight: 300;
+
+  font-size: 1.2rem;
+  text-align: center;
+  letter-spacing: 0.2rem;
+  font-family: "Fraunces", serif;
+  color: var(--Grayishblue);
+  text-transform: uppercase;
+  margin-top: 3.3125rem;
+  margin-bottom: 3.3125rem;
+}
+
+.review__intro p {
+  font-weight: 100;
+  margin-bottom: 2.25rem;
+  font-size: 0.9rem;
+  line-height: 1.7;
+  padding: 0;
+  text-align: center;
+}
+
+.review__item {
+  /* border: 2px solid yellow; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.review__item .review__icon {
+  padding-bottom: 0.8rem;
+}
+
+.review__item .review__icon img {
+  height: 5.1875rem;
+  width: 5.1875rem;
+}
+
+.review__item .review__title h3 {
+  text-align: center;
+  font-weight: 700;
+  margin: 0;
+  font-size: 0.9375rem;
+  padding: 1rem;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-bottom: 0.8125rem;
+  font-family: "Fraunces", serif;
+  color: var(--Verydarkdesaturatedblue);
+}
+
+.review__item .review__discription p {
+  font-weight: 600;
+  margin-bottom: 3.5rem;
+  font-size: 1.2rem;
+  line-height: 1.7;
+  font-family: "Barlow", sans-serif;
+  text-align: center;
+  color: var(--Verydarkgrayishblue);
+  margin-bottom: 2rem;
+}
+
+.review__title p {
+  color: var(--Grayishblue);
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  font-size: 0.8rem;
+  margin-bottom: 4.5rem;
+}
+
+@media (min-width: 64em) {
+  .review {
+    margin: 0;
+    padding: 2.5rem 6rem 0 2.2269125rem;
+    /* margin: 5rem; */
+  }
+  .review__intro {
+    padding-left: 0;
+    padding-left: 1.5rem;
+  }
+
+  .review__intro {
+    margin: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .review__intro h2 {
+    margin-bottom: 5.25rem !important;
+    margin-top: 10.125rem;
+    font-size: 1.2rem !important;
+  }
+
+  .review__content .review__intro p {
+    width: 63%;
+    text-align: left;
+  }
+  .review__grid {
+    display: flex;
+    flex-wrap: nowrap;
+    /* flex-wrap: wrap; */
+  }
+  .review__intro {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .review__grid {
+    margin: 0 5.4rem;
+  }
+
+  .review__item {
+    flex: 1;
+    padding: 0.9375rem;
+    padding-left: 1.5rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .review__item:not(:last-child) {
+    margin-right: 2.75rem;
+  }
+
+  .review__item:nth-of-type(1) {
+    padding: 0;
+  }
+  .review__item:nth-of-type(2) {
+    padding: 0;
+  }
+  .review__item:nth-of-type(3) {
+    padding-right: 0;
+    padding: 0;
+  }
+
+  .review__intro h2 {
+    font-size: 1rem;
+    margin-bottom: 3.25rem;
+  }
+
+  .review__item .review__title h3 {
+    font-size: 1.125rem;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 1rem;
+  }
+
+  .review__title p {
+    margin-bottom: 9.6875rem;
+  }
+
+  .review__item .review__discription p {
+    margin-bottom: 0;
+    font-size: 1.125rem !important;
+
+    padding-left: 0;
+    padding-bottom: 3rem;
+  }
+
+  #para {
+    padding-left: 0;
+    padding-bottom: 0;
+    padding-right: 0;
+  }
+  #simple {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media (min-width: 40em) and (max-width: 64em) {
+  .review__grid {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .review__item {
+    flex: 0 0 49.32%;
+  }
+  .review__item:nth-of-type(3) {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,137 @@
+.footer {
+  background-color: var(--darkblue);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+.space {
+  width: 18.125rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__image {
+  padding-bottom: 3.5rem;
+  padding-top: 4.375rem;
+}
+
+.footer__social {
+  padding-bottom: 4.375rem;
+}
+
+.footer .space .footer__social .footer__social_link :not(:last-child) {
+  padding-right: 0.875rem;
+}
+
+.footer__social_link a svg {
+  width: 4rem;
+  height: 4rem;
+}
+
+.footer__links {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  color: var(--Darkmoderatecyan);
+}
+
+.col1 {
+  padding-bottom: 1.125rem;
+}
+
+.footer__links a {
+  font-size: 1rem;
+  color: white;
+  color: var(--Darkmoderatecyan);
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  margin-bottom: 4.375rem;
+}
+
+.footer__links a:not(:last-child) {
+}
+
+.footer button {
+  margin-bottom: 1.6875rem;
+}
+
+.footer__certificate {
+  font-size: 0.9rem;
+}
+
+.cta {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.footer .space .footer__links a {
+  transition: color 250ms ease-in-out;
+}
+
+.footer .space .footer__social svg path {
+  transition: fill 200ms ease-in-out;
+}
+
+.footer .space .footer__social a svg path:hover {
+  fill: white;
+}
+
+.footer .space .footer__links a:hover {
+  color: white;
+}
+
+.footer {
+  background-color: hsl(168, 48%, 69%);
+}
+
+@media (min-width: 40em) {
+  .footer {
+    background-color: hsl(168, 48%, 69%);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 6rem;
+  }
+}
+
+/* #button1 {
+  position: relative;
+  width: 6.068125rem;
+  display: inline-block;
+  padding: 0.875rem 2.1875rem;
+  background: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+  border-radius: 50px;
+  border: 0;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  overflow: hidden;
+  transition: opacity 300ms ease-in-out;
+} */
+
+/* #button1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.25);
+  opacity: 0;
+  -webkit-transition: opacity 150ms ease-in-out;
+  transition: opacity 150ms ease-in-out;
+} */
+
+/* #button1:hover {
+  opacity: 0.8;
+} */

@@ -1,0 +1,31 @@
+:root {
+  /* var() */
+
+  /* colors */
+
+  --softRed: hsl(7, 99%, 70%);
+  --Yellow: hsl(51, 100%, 49%);
+  --Darkdesaturatedcyan: hsl(167, 40%, 24%); /* (graphic design text) */
+  --Darkblue: hsl(198, 62%, 26%); /* (photography text) */
+  --Darkmoderatecyan: hsl(168, 34%, 41%); /* (footer) */
+
+  /* Neutral */
+
+  --Verydarkdesaturatedblue: hsl(212, 27%, 19%);
+  --Verydarkgrayishblue: hsl(213, 9%, 39%);
+  --Darkgrayishblue: hsl(232, 10%, 55%);
+  --Grayishblue: hsl(210, 4%, 67%);
+  --White: hsl(0, 0%, 100%);
+
+  /* fonts */
+
+  --Barlow: (font-family: "Barlow", sans-serif);
+  --Fraunces: (font-family: "Fraunces", serif);
+
+  /* font sizes */
+
+  --font_sm: 0.875rem; /*14px*/
+  --font_med: 1.125rem; /*18px*/
+  --font-large: 1.25rem;
+  --font-xlarge: 3.25rem;
+}
